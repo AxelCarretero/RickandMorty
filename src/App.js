@@ -19,6 +19,7 @@ const reqApi =  async () =>{
     <div className="App">
       <header className="App-header">
     <h1 className='title'>Rick & Morty</h1>
+    <h1 className='title'>Creado por: Axel Carretero</h1>
     {characters ? (
       <Characters characters={characters} setCharacteres={setCharacteres}/>
     ):(

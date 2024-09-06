@@ -56,6 +56,7 @@ const resetCharacters =() =>{
 
             ))}
       </div>
+      <p>Creado por: Axel Carretero</p>
       <span className='back-home' onClick={resetCharacters}> Volver a la home</span>
     </div>
   );
